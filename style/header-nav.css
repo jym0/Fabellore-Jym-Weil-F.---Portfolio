@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+    
+}
+.logo2{
+    display: none;
+}
+.fimg{
+    width: 46px;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 28px;
+}
+header figure{
+    display: flex;
+    
+}
+header figure figcaption{
+    align-self: center;
+    margin-left: 6px;
+}
+.myname{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.profession{
+    font-size: 0.7rem;
+    color:  #333;
+}
+.logo{
+    font-size: 1.3rem;
+    font-family: 'Black Ops One', cursive;
+    letter-spacing: 1.5px;
+    color: #c3b091;
+    isolation: isolate;
+}
+.logo span{
+    position: relative;
+    color: #6e2e1a;
+    
+}
+.download-cv{
+    display: none;
+}
+.nav li a span{
+    display: none;
+}
+.nav{
+    list-style: none;
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    background-color:#e0d5c9;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: #e0d5c9;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    padding: 8px;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav a:hover {
+    color: black;
+    border-color: #efece9;
+    background-color: #efece9;
+    font-weight: bold;
+}
+.nav a.active{
+    color: black;
+    background-color: #efece9;
+    border-style: outset;
+    border-color: #efece9;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: 1px;
+    border-bottom: 0;
+    font-weight: bold;
+}
+
+.nav li a svg{
+    width: 22px;
+}
+
