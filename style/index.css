@@ -414,6 +414,7 @@ section{
 .ratings{
     display: flex;
     font-size: 0.7rem;
+    opacity: 0.8;
     justify-content: space-around;
     margin-bottom: 20px;
     margin-left: 14px;
@@ -458,6 +459,7 @@ section{
 .darkmode--activated .company{
     color: white;
     font-weight: 200;
+    opacity: 0.8;
 }
 .works{
     margin-left: 14px;
