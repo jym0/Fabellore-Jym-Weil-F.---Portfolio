@@ -106,14 +106,18 @@ function setProgress(progress, progressBarId) {
   progressBar.style.width = `${progress}%`;
 }
 
-setProgress(50, "progress1");
-setProgress(50, "progress2");
+setProgress(45, "progress1");
+setProgress(45, "progress2");
 setProgress(10, "progress3");
-setProgress(7, "progress4");
-setProgress(7, "progress5");
-setProgress(10, "progress6");
-setProgress(50, "progress7");
-setProgress(10, "progress8");
+setProgress(15, "progress4");
+setProgress(15, "progress5");
+setProgress(8, "progress6");
+setProgress(8, "progress7");
+setProgress(8, "progress8");
+setProgress(10, "progress9");
+setProgress(10, "progress10");
+setProgress(47, "progress11");
+setProgress(10, "progress12");
 
 //-------------TESTIMONIALS-----------------------//
 var swiper = new Swiper(".mySwiper", {
@@ -337,6 +341,8 @@ const imagePreview = [
   "images/p8.png",
   "images/p-w1.png",
   "images/p-w2.png",
+  "images/p-w3.png",
+  "images/p-w4.png",
 ];
 
 const videos = [

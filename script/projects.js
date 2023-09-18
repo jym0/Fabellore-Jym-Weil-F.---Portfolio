@@ -22,7 +22,7 @@ const projects = [
   {
     type: "canva",
     image: "images/p3.png",
-    title: "Sample flower ad",
+    title: "Promotional items",
     linksBtn: {
       previewBtn: "showPreview(2, 'image')",
       details:
@@ -32,7 +32,7 @@ const projects = [
   {
     type: "canva",
     image: "images/p4.png",
-    title: "Sample beer ad",
+    title: "Promotional items",
     linksBtn: {
       previewBtn: "showPreview(3, 'image')",
       details:
@@ -42,7 +42,7 @@ const projects = [
   {
     type: "illustrator",
     image: "images/p5.png",
-    title: "Sample beer ad",
+    title: "Poster",
     linksBtn: {
       previewBtn: "showPreview(4, 'image')",
       details:
@@ -52,7 +52,7 @@ const projects = [
   {
     type: "illustrator",
     image: "images/p6.png",
-    title: "Sample beer ad",
+    title: "Promotional items",
     linksBtn: {
       previewBtn: "showPreview(5, 'image')",
       details:
@@ -62,7 +62,7 @@ const projects = [
   {
     type: "canva",
     image: "images/p7.png",
-    title: "Sample flowers ad",
+    title: "Promotional items",
     linksBtn: {
       previewBtn: "showPreview(6, 'image')",
       details:
@@ -72,7 +72,7 @@ const projects = [
   {
     type: "canva",
     image: "images/p8.png",
-    title: "Sample flowers ad",
+    title: "Promotional items",
     linksBtn: {
       previewBtn: "showPreview(7, 'image')",
       details:
@@ -82,7 +82,7 @@ const projects = [
   {
     type: "canva",
     image: "images/vid1.png",
-    title: "Sample vid ad",
+    title: "Informative video",
     linksBtn: {
       previewBtn: "showPreview(0, 'video')",
       details:
@@ -122,7 +122,7 @@ const projects = [
   {
     type: "canva",
     image: "images/vid4.png",
-    title: "Converge ad",
+    title: "Promotional video",
     linksBtn: {
       previewBtn: "showPreview(4, 'video')",
       details:
@@ -145,6 +145,24 @@ const projects = [
     linksBtn: {
       previewBtn: "showPreview(9, 'image')",
       details: "https://jym0.github.io/webcycle/",
+    },
+  },
+  {
+    type: "website",
+    image: "images/p-w3.png",
+    title: "Simple React JS website",
+    linksBtn: {
+      previewBtn: "showPreview(10, 'image')",
+      details: "https://jym0.github.io/pipapa.io/",
+    },
+  },
+  {
+    type: "website",
+    image: "images/p-w4.png",
+    title: "Thesis Project(PHP)</br>*still working",
+    linksBtn: {
+      previewBtn: "showPreview(11, 'image')",
+      details: "",
     },
   },
 ];
