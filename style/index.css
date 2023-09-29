@@ -394,6 +394,7 @@ section{
 .skills{
     font-weight: 500;
     margin-left: 14px;
+    text-transform: uppercase;
 }
 .darkmode--activated .skills{
     color: white;

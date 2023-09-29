@@ -101,6 +101,17 @@ function showIntroText() {
 
 //----------------RESUME--------------------------//
 
+//------------SKILLS RENDER --------------------------------//
+let skillsHTML = "";
+
+skills.forEach((contents) => {
+  skillsHTML += `<p class="skills">${contents.title}</p>
+                            <div class="progress-bar"><div class="progress" id="${contents.progress}"></div></div><div class="ratings"><p>Beginner</p><p>User</p><p>Professional</p><p>Expert</p></div>`;
+});
+
+document.getElementById('skills_container').innerHTML = skillsHTML;
+//------------------------------------------------------------------------//
+
 function setProgress(progress, progressBarId) {
   const progressBar = document.querySelector(`#${progressBarId}`);
   progressBar.style.width = `${progress}%`;
@@ -283,6 +294,8 @@ document.addEventListener("DOMContentLoaded", function () {
     form.reset();
   }
 });
+
+
 
 //--------------- PROJECTS RENDER ----------------//
 
