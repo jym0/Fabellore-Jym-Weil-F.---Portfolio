@@ -776,8 +776,8 @@
     }
 
     .service-container svg{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     .service-work{
         font-size: 0.9rem;
@@ -842,6 +842,10 @@
     .sunny,.moon{
         font-size: 0.9rem;
     }
+
+    .talk{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -903,9 +907,12 @@
     
 
     .projects_desc p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
+    .projects_link_btn{
+        width: 38%;
+    }
 
 
     .next_btn_projects, .prev_btn_projects{
@@ -919,6 +926,10 @@
     }
     .service-desc{
     font-size: 1rem;
+    }
+    .service-container svg{
+        width: 50px;
+        height: 50px;
     }
 
 
