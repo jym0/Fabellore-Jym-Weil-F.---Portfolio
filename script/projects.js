@@ -132,10 +132,10 @@ const projects = [
   {
     type: "website",
     image: "images/p-w1.png",
-    title: "Google homepage clone",
+    title: "Bootcamp Website (Bootstrap)",
     linksBtn: {
       previewBtn: "showPreview(8, 'image')",
-      details: "https://jym0.github.io/google_homepage_clone/",
+      details: "https://jym0.github.io/byteblast/",
     },
   },
   {
@@ -163,6 +163,15 @@ const projects = [
     linksBtn: {
       previewBtn: "showPreview(11, 'image')",
       details: "",
+    },
+  },
+  {
+    type: "website",
+    image: "images/p-w5.png",
+    title: "Travel Website</br>(PHP, MySQL, Bootstrap)",
+    linksBtn: {
+      previewBtn: "showPreview(12, 'image')",
+      details: "https://voyageventures.000webhostapp.com/home.php",
     },
   },
 ];

@@ -106,7 +106,10 @@ let skillsHTML = "";
 
 skills.forEach((contents) => {
   skillsHTML += `<p class="skills">${contents.title}</p>
-                            <div class="progress-bar"><div class="progress" id="${contents.progress}"></div></div><div class="ratings"><p>Beginner</p><p>User</p><p>Professional</p><p>Expert</p></div>`;
+                  <div class="progress-bar">
+                    <div class="progress" id="${contents.progress}"></div>
+                  </div>
+                  <div class="ratings"><p>Beginner</p><p>User</p><p>Professional</p><p>Expert</p></div>`;
 });
 
 document.getElementById('skills_container').innerHTML = skillsHTML;
@@ -356,6 +359,7 @@ const imagePreview = [
   "images/p-w2.png",
   "images/p-w3.png",
   "images/p-w4.png",
+  "images/p-w5.png",
 ];
 
 const videos = [
